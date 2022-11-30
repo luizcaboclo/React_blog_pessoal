@@ -9,35 +9,35 @@ function Navbar(){
     return(
         <>
         <AppBar position="static">
-                <Toolbar variant="dense">
-                    <Box className='cursor' >
+                <Toolbar className='g1' variant="dense">
+                    <Box className='cursor b1' >
                         <Typography variant="h5" color="inherit">
                           <Box >  BlogPessoal</Box>
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="start">
-                        <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor b1'>
                             <Typography variant="h6" color="inherit">
                                 home
                             </Typography>
                         </Box>
-                        <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor b1'>
                             <Typography variant="h6" color="inherit">
                                 postagens
                             </Typography>
                         </Box>
-                        <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor b1'>
                             <Typography variant="h6" color="inherit">
                                 temas
                             </Typography>
                         </Box>
-                        <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor b1'>
                             <Typography variant="h6" color="inherit">
                                 cadastrar tema
                             </Typography>
                         </Box>
-                        <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor b1'>
                             <Typography variant="h6" color="inherit">
                                 logout
                             </Typography>
