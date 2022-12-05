@@ -7,6 +7,8 @@ import Footer from './components/estaticos/footer/Footer';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom'
 import Login from './paginas/login/Login'
 import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
+import ListaPostagem from './components/postagem/listapostagem/ListaPostagem';
+import ListaTema from './components/temas/listatemas/ListaTemas';
 
 
 function App() {
@@ -16,8 +18,11 @@ function App() {
       <Navbar />
        <Routes>
         <Route path='/' element={<Login/>}/>
+        <Route path='/login' element={<Login />} />
         <Route path='/home' element={<Home/>}/>
         <Route path='/cadastrousuario' element={<CadastroUsuario />}/>
+        <Route path='/temas' element={<ListaTema />} />
+        <Route path='/postagem' element={<ListaPostagem />} />
        </Routes>
        <Footer />
     </Router>
